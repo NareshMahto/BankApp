@@ -10,8 +10,8 @@ public class Main {
         String password = sc.next();
         int balance = sc.nextInt();
 
-        SBIAccount nareshAcc = new SBIAccount(name, balance, password);
-
+       // SBIAccount nareshAcc = new SBIAccount(name, balance, password);
+        HDFCAccount nareshAcc = new HDFCAccount(name, balance, password);
         System.out.println("Your account has been created with account number: " + nareshAcc.getAccountNo());
 
         //get balance
